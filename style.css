@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Amiko";
+  background-color: white;
+}
+
+a {
+  color:orange;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#header h1 {
+  font-weight:400;
+}
+
+#navbar {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#navbar ul li {
+  display: inline-block;
+  margin: 0 30px;
+  text-transform: uppercase;
+}
+
+#navbar ul li a {
+  color: #000;
+  text-decoration: none;
+}
+/*navbar ul li.active a is only anchors of active items*/
+#navbar ul li.active a, #navbar ul li a:hover {
+  color: orange;
+}
+
+#content {
+  display: flex;
+  margin: 0 auto;
+  width: 760px;
+  padding-top: 100px;
+}
+
+#photo {
+  width: 30%;
+  font-size: 12px;
+}
+
+#photo img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#photo p {
+  text-align: center;
+}
+
+#description {
+  width: 70%;
+  padding-left: 50px;
+}
+
+#iconbar  {
+  margin-top: 80px;
+  text-align:center;
+}
+
+#iconbar a {
+  margin: 0 12px;
+}
