@@ -44,6 +44,7 @@ a:hover {
 /*navbar ul li.active a is only anchors of active items*/
 #navbar ul li.active a, #navbar ul li a:hover {
   color: orange;
+  transition: color 0.25s ease;
 }
 
 #content {
@@ -80,4 +81,13 @@ a:hover {
 
 #iconbar a {
   margin: 0 12px;
+}
+
+/*Styling for blog.html*/
+.posts-container {
+  font-family: "Merriweather";
+  font-size: 16px;
+  width: 100%
+  /*margin-top: 60px;
+  font-weight: 100px;*/
 }
