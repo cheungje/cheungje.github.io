@@ -5,35 +5,38 @@
   <title>Jennifer Cheung</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Amiko&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
-
-<div id="header">
-  <h1>Jennifer Cheung</h1>
-</div>
-
-<div id="navbar">
-  <ul>
-    <li><a href="index.html">About</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li class="active"><a href="blog.html">Blog</a></li>
-  </ul>
-</div>
-
-
-<div class="all-posts-container" style="position: relative; width: 440px;">
-  <div class="post-container" style="position: absolute; transition-property: opacity, transform; transition-duration: 0.4s, opacity: 1; left: 0px; top: 0px;">
-    <div class="post-image" style="height: 440px;">
-      <img src="test.jpeg">
+  <div class="main-wrapper">
+    <div id="header">
+      <h1>Jennifer Cheung</h1>
     </div>
-    <div class="post-text">
-      <p>O unworthy dross! O debased honor! Thou art th' firmament's ancient teeth. From whence doth bruising ruin salve not the cloud's hopes? Why doth spurn'd vice tease upon th' multitudes' sails? Forsooth!</p>
+
+    <div id="navbar">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li class="active"><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="carousel-container">
+      <i class="fas fa-arrow-left" id="prevButton"></i>
+      <i class="fas fa-arrow-right" id="nextButton"></i>
+      <div class="carousel-slide">
+        <img src="test5.png" id="lastClone" alt="">
+        <img src="test1.jpg" alt="">
+        <img src="test2.png" alt="">
+        <img src="test3.png" alt="">
+        <img src="test4.jpg" alt="">
+        <img src="test5.png" alt="">
+        <img src="test1.jpg" id="firstClone" alt="">
+      </div>
     </div>
 
   </div>
 
-</div>
-
-
+  <script src="app.js"></script>
 </body>
 </html>
