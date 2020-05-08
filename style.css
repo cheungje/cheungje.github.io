@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
 body {
   font-family: "Amiko";
   background-color: white;
@@ -90,7 +99,7 @@ a:hover {
 .carousel-container {
   width: 42%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 70px;
   border: 3px solid white;
   overflow: hidden;
   position: relative;
@@ -121,4 +130,54 @@ a:hover {
   color: white;
   opacity: 0.7;
   cursor: pointer;
+}
+
+.carousel-image {
+  position: relative;
+}
+
+.carousel-image span {
+  color: black;
+  z-index: 10;
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  text-align: center;
+}
+
+/*Styling portfolio.html*/
+#portfolio-wrapper {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  font-family: "Merriweather";
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-top: 70px;
+}
+
+#portfolio-wrapper p {
+  padding: 20px 20px 20px 20px;
+}
+
+
+.left-column {
+  /*background: yellow;*/
+
+  padding-right: 20px;
+  width: 50%;
+}
+
+.right-column {
+  /*background: blue;*/
+  padding-left: 20px;
+  width: 50%;
+}
+
+.image-setter {
+  display: flex;
+  justify-content: center;
 }
