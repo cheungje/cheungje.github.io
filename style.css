@@ -61,7 +61,7 @@ a:hover {
   display: flex;
   margin: 0 auto;
   width: 760px;
-  padding-top: 100px;
+  margin-top: 100px;
 }
 
 #photo {
@@ -163,6 +163,22 @@ a:hover {
   padding: 20px 20px 20px 20px;
 }
 
+#portfolio-wrapper strong {
+  font-size: 15px;
+}
+
+#portfolio-wrapper a:hover {
+  color: #6495ED;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+#portfolio-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 
 .left-column {
   /*background: yellow;*/
@@ -175,6 +191,26 @@ a:hover {
   /*background: blue;*/
   padding-left: 20px;
   width: 50%;
+}
+
+.image-setter {
+  width: 400px;
+  margin-left: 65px;
+}
+
+#regeneron-logo {
+  height: 30%;
+  width: 30%;
+}
+
+#regeneron-group {
+  height: 70%;
+  width: 70%;
+
+}
+
+.right-column img {
+  display: inline-block;
 }
 
 .image-setter {
