@@ -13,6 +13,20 @@ hr {
   padding: 0;
 }
 
+/*@font-face {
+  font-family: 'Playfair Display SC', serif;
+  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+/* @font-face {
+  font-family: "Playfair Display", serif;
+  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  font-weight: normal;
+  font-style: normal;
+} */
+
 body {
   font-family: "Amiko";
   background-color: white;
@@ -95,11 +109,109 @@ a:hover {
 }
 
 /*Styling for blog.html*/
-
 #writing-wrapper {
   width: 800px;
   margin: 25px auto;
 }
+
+.article-list {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.post-card {
+  border: 1px solid;
+  border-color: #d8dde8;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #ccc;
+
+  /*sets up hover state*/
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+}
+
+.post-card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+.post {
+  display: block;
+  margin-top: 50px;
+}
+
+article header, post-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-width: 100%;
+
+}
+
+article header {
+    /*text-align: center;*/
+    margin: 0em auto 45px;
+    padding-left: 20px;
+}
+
+.meta {
+  color: #263333;
+  /*text-align: center;*/
+  padding-left: 1px;
+}
+
+.date {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+}
+
+.post-content {
+  margin: 0em auto 24px;
+}
+
+.post-content p {
+  font-family: "Merriweather";
+  margin: 0em auto 24px;
+  padding-left: 20px;
+}
+
+.read-more {
+  display: block;
+  padding-left: 20px;
+}
+
+.read-more a {
+  color: black;
+}
+
+.post-content .read-more a:hover {
+  color: yellow;
+  transition: color 0.25s ease;
+}
+
+footer .clear {
+  margin: 1em auto 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .carousel-container {
@@ -241,7 +353,6 @@ a:hover {
 }
 
 /*Styling for photos.html*/
-
 #gallery-description {
   text-align: center;
   margin-top: 15px;
