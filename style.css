@@ -114,11 +114,15 @@ a:hover {
   margin: 25px auto;
 }
 
-.article-list {
+.article-list, .post-expanded {
   width: auto;
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
+}
+
+.post-expanded {
+  max-width: 900px;
 }
 
 .post-card {
@@ -141,6 +145,12 @@ a:hover {
   box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
 
+.post-card img, .post-expanded img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 .post {
   display: block;
   margin-top: 50px;
@@ -155,14 +165,12 @@ article header, post-content {
 }
 
 article header {
-    /*text-align: center;*/
     margin: 0em auto 45px;
     padding-left: 20px;
 }
 
 .meta {
   color: #263333;
-  /*text-align: center;*/
   padding-left: 1px;
 }
 
@@ -186,19 +194,23 @@ article header {
   padding-left: 20px;
 }
 
-.read-more a {
+/*for article1*/
+.post-expanded {
+
+}
+
+
+
+/* .read-more a {
   color: black;
 }
 
 .post-content .read-more a:hover {
   color: yellow;
   transition: color 0.25s ease;
-}
+} */
 
-footer .clear {
-  margin: 1em auto 0;
-  text-align: center;
-}
+
 
 
 
